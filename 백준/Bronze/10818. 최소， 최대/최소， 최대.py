@@ -1,3 +1,3 @@
-a = int(input())
-L = list(map(int,input().split()))
-print(min(L),max(L))
+N=int(input())
+array=list(map(int,input().split()))
+print(min(array), max(array))    #array 함수를 이용한 풀이
